@@ -53,7 +53,7 @@ body {
 .header--main {
   padding: 1em;
   text-align: center;
-  height: 10vh; }
+  height: 25vh; }
 
 h1 {
   font-weight: 700;
@@ -92,3 +92,13 @@ img {
 
 .characters {
   height: 50vh; }
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .section {
+    height: 972.8px; }
+  .section:first-of-type {
+    height: 768px; }
+  .header--main {
+    height: 256px; }
+  .characters {
+    height: 512px; } }
