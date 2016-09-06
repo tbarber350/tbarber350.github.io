@@ -101,7 +101,8 @@ img {
   .svg-container {
     height: 940.8px; }
   .header--main {
-    height: 256px; }
+    height: 256px;
+    padding: 4em 1em 1em; }
   .characters {
     height: 512px;
     position: absolute;
